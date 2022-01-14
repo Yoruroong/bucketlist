@@ -9,7 +9,7 @@ export default function CardComponent({note}) {
             <Card.Body>
                 <Card.Title>{note.title}</Card.Title>
                 <Card.Text>
-                    {note.details}
+                    {note.details.split('\n').map(nt => {return (<span>{nt}<br /></span>)})}
                 </Card.Text>
                 <Card.Footer>
                     <small className="text-muted">{note.success == 1 ? `완료됨: ${note.date}` : "미완료"}</small>
@@ -40,7 +40,7 @@ function NoteModal(props) {
         <Modal.Body>
             {props.note.successimage ? <img src={"images/" + props.note.successimage} className="img-fluid"></img> : ""}
           <p style={{ marginTop: '17px' }}>
-            {props.note.successdetails}
+            {props.note.successdetails.split('\n').map(nt => {return (<span>{nt}<br /></span>)})}
           </p>
         </Modal.Body>
         <Modal.Footer>
