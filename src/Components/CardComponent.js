@@ -9,7 +9,9 @@ export default function CardComponent({note}) {
             <Card.Text>
               {note.details}
             </Card.Text>
-            <p style={{ fontSize: '15px', color: "gray" }}>{note.success == 1 ? `완료됨: ${note.date}` : "미완료"}</p>
+            <Card.Footer>
+                <small className="text-muted">{note.success == 1 ? `완료됨: ${note.date}` : "미완료"}</small>
+            </Card.Footer>
           </Card.Body>
         </Card>
     )
