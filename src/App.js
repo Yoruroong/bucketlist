@@ -993,8 +993,8 @@ function App() {
       <h1 style={{ marginTop: "50px" }}># BUCKETLIST</h1>
       <Stats notes={notes} />
       <Routes>
-        <Route path="/" element={<Card notes={notes} />} />
-        <Route path="/success" element={<Success notes={notes} />} />
+        <Route path="/" element={<Card notes={notes}/>} />
+        <Route path="/success" element={<Success notes={notes}/>} />
       </Routes>
       <footer>
         <p align="center" className="copy" style={{ marginTop: "139px" }}>© 2020 - {new Date().getFullYear()}, Yeonwoo Seo </p>
