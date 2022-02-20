@@ -55,7 +55,7 @@ export default function Stats ({ notes }) {
                 </Card>
                 <Card>
                     <Card.Body>
-                    <Card.Title>지금까지 이룬 못한 항목</Card.Title>
+                    <Card.Title>지금까지 이루지 못한 항목</Card.Title>
                     <Card.Text>
                         {notes.filter(a => a.success == '0').length}({parseInt((notes.filter(a => a.success == '0').length / notes.length) * 100)}%)
                     </Card.Text>

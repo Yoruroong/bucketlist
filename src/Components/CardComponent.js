@@ -6,7 +6,7 @@ export default function CardComponent({note}) {
   const handleClose = () => window.location='http://redirectmydomain.kro.kr/#' + note.id
   const handleShow = () => setModalShow(true);
   return (
-    <Card id={note.id} style={note.successdetails ? { cursor: "pointer" } : { cursor: "default" }} className={note.successdetails ? "shadow hoverbackground": "shadow"} onClick={handleShow}>
+    <Card id={note.id} style={note.successdetails ? { cursor: "pointer" } : { cursor: "default" }} className={note.successdetails ? "shadow hoverbackground": "shadow"} onClick={note.successdetails ? handleShow : ""}>
       <Card.Img variant="top" src={note.image ? "images/" + note.image : ""} />
       <Card.Body>
         <Card.Title>{note.title}</Card.Title>

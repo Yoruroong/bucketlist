@@ -7,6 +7,7 @@ import './App.css';
 
 function App() {
   const [notes, setNotes] = useState([]);
+  // https://jinh.kr/bucket/
 
   useEffect(() => {
     /*fetch('http://localhost:8000/notes')
@@ -59,7 +60,7 @@ function App() {
             "id": 4
           },
           {
-            "title": "별이 다섯 개",
+            "title": "응 그래 나 돈 많아",
             "details": "신라호텔에서 *혼자* 숙박하기",
             "category": "여행",
             "success": "0",
@@ -357,7 +358,7 @@ function App() {
           },
           {
             "title": "신용카드 평잔",
-            "details": "6달동안 평균잔고 100만원 유지하기",
+            "details": "12달동안 평균잔고 700만원 유지하기",
             "category": "소유",
             "success": "0",
             "date": "",
@@ -367,7 +368,7 @@ function App() {
             "id": 32
           },
           {
-            "title": "티끌 모아 태산",
+            "title": "이 통장은 예금자 보호법에 의해..",
             "details": "통장잔고 5000만원",
             "category": "소유",
             "success": "0",
@@ -568,10 +569,10 @@ function App() {
             "title": "비장의무기",
             "details": "스마트워치 구매하기",
             "category": "소유",
-            "success": "0",
-            "date": "",
+            "success": "1",
+            "date": "2022.01",
             "image": "",
-            "successdetails": "",
+            "successdetails": "애플워치 SE를 구매함. 일주일만에 반품하긴 했지만 그래도 구매하긴 했음.",
             "successimage": "",
             "id": 51
           },
@@ -753,7 +754,7 @@ function App() {
           },
           {
             "title": "교양있을거같은데",
-            "details": "영화가 되기 전에 소설책을 예상해서 읽어보기",
+            "details": "영화가 되기 전에 영화가 될법한 소설책을 예상해서 읽어보기",
             "category": "교육",
             "success": "0",
             "date": "",
@@ -797,7 +798,7 @@ function App() {
           },
           {
             "title": "유네스코",
-            "details": "유네스코 세계 문화유산 30곳 이상 방문해보기",
+            "details": "유네스코 세계 문화유산 15곳 이상 방문해보기",
             "category": "여행",
             "success": "0",
             "date": "",
@@ -970,6 +971,61 @@ function App() {
             "successdetails": "",
             "successimage": "",
             "id": 87
+          },
+          {
+            "title": "I am very 럭키",
+            "details": "(반어법) 점수 반올림 되어서 등급 올라가기",
+            "category": "교육",
+            "success": "1",
+            "date": "2021.06",
+            "image": "",
+            "successdetails": "기술가정 과에서 기말하고 수행 합산 점수가 89.xx 나왔는데 발올림 안되어서 89나오고 B나옴",
+            "successimage": "",
+            "id": 88
+          },
+          {
+            "title": "맞아, 나 돈 많아(1)",
+            "details": "신용카드한도 1000만원 달성하기",
+            "category": "소유",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 89
+          },
+          {
+            "title": "맞아, 나 돈 많아(2)",
+            "details": "연회비 30만원 이상 프리미엄카드 발급하기",
+            "category": "소유",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 90
+          },
+          {
+            "title": "돈이나 벌어(날려)볼까 (1)",
+            "details": "주식계좌 개설하기",
+            "category": "소유",
+            "success": "1",
+            "date": "2017",
+            "image": "",
+            "successdetails": "2017년에 삼성증권 계좌 만들고 2021년 말에 신한금융투자, 토스증권 계좌 만듦.",
+            "successimage": "",
+            "id": 91
+          },
+          {
+            "title": "돈이나 벌어(날려)볼까 (2)",
+            "details": "공모주 청약해보기",
+            "category": "소유",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 91
           },
           /* sample
           {
