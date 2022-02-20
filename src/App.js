@@ -902,7 +902,7 @@ function App() {
             "success": "1",
             "date": "2021.11.02",
             "image": "",
-            "successdetails": "애플(AAPL)을 무려 0.04주나 구매하였다!\n스냅(SNAP)도 0.05주 구매함. DRIV랑 JETS구매해서 대부분의 항공주랑 전기차 관련 주식 주주도 됨.\n(2022.01.09) SPY, AMD, NET 매수",
+            "successdetails": "애플(AAPL)을 무려 0.04주나 구매하였다!\n스냅(SNAP)도 0.05주 구매함. DRIV랑 JETS구매해서 대부분의 항공주랑 전기차 관련 주식 주주도 됨.\n(2022.01.09) SPY, AMD, NET 매수\n(2022.02. xx) O 매수 및 NET 매도(+9%)",
             "successimage": "20211103_003745954.jpg",
             "id": 81
           },
@@ -954,10 +954,10 @@ function App() {
             "title": "응",
             "details": "버킷리스트 항목 100개 만들기",
             "category": "TOP",
-            "success": "0",
-            "date": "",
+            "success": "1",
+            "date": "2022.02.21",
             "image": "",
-            "successdetails": "",
+            "successdetails": "(id 100) 친화력만큼은 세계 1등 항목으로 달성!!",
             "successimage": "",
             "id": 86
           },
@@ -1026,6 +1026,94 @@ function App() {
             "successdetails": "",
             "successimage": "",
             "id": 92
+          },
+          {
+            "title": "나 영어 잘해",
+            "details": "토익 855점 넘어보기",
+            "category": "교육",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 93
+          },
+          {
+            "title": "자기장과의 조우",
+            "details": "오로라 관측하기",
+            "category": "여행",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 94
+          },
+          {
+            "title": "응 너 손절~",
+            "details": "제대로 멋지게 손절해보기",
+            "category": "사람",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 95
+          },
+          {
+            "title": "안ㅎㅎㅎ녕핳ㅎ세요",
+            "details": "구독장 10만 이상 유튜버 만나보기 + 사진까지",
+            "category": "사람",
+            "success": "1",
+            "date": "2022.01.02",
+            "image": "",
+            "successdetails": "디에디트의 에디터 H님을 만났다.",
+            "successimage": "",
+            "id": 96
+          },
+          {
+            "title": "비상! 비상! 비상!",
+            "details": "계정 해킹당해보기",
+            "category": "기타",
+            "success": "1",
+            "date": "2020",
+            "image": "",
+            "successdetails": "스팀 계정 해킹(2020)\n에버노트 계정 해킹(2021)\n디스코드 계정 해킹(2021)",
+            "successimage": "",
+            "id": 97
+          },
+          {
+            "title": "난 너무 착해",
+            "details": "100시간 이상 자원봉사 후 인증배지 받기",
+            "category": "기타",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 98
+          },
+          {
+            "title": "TAKE MY(상대의) MONEY!",
+            "details": "백만장자 만나보기",
+            "category": "사람",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 99
+          },
+          {
+            "title": "친화력만큼은 세계 1등",
+            "details": "중학생(나) 때 대학생(지인)이랑 반말하기",
+            "category": "사람",
+            "success": "1",
+            "date": "2021",
+            "image": "",
+            "successdetails": "원래는 반말 안했었는데 자연스럽게 반말하게 됨. 엄청 친하진 않은데 그래도 내 성격에 친해져서 반말하는게 어디인지.",
+            "successimage": "",
+            "id": 100
           },
           /* sample
           {
