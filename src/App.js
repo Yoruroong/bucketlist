@@ -18,7 +18,7 @@ function App() {
           { 
             "title": "버킷리스트",
             "details": "버킷리스트 만들기",
-            "successdetails": "예전부터 생각하고 있었던거긴 한데 드디어 만들었다!!",
+            "successdetails": "예전부터 생각하고 있었던거긴z` 한데 드디어 만들었다!!",
             "successimage": "",
             "category": "TOP",
             "success": "1",
@@ -963,7 +963,7 @@ function App() {
           },
           {
             "title": "난 너무 멋져(질거야)",
-            "details": "내가 봐도 내가 멋져보일 정도로 멋지게 살아보기. 개발같이 귀찮고 하기 싫은게 아니라 내가 하고싶은걸 하면서!",
+            "details": "내가 봐도 내가 멋져보일 정도로 멋지게 살아보기.",
             "category": "Teenager",
             "success": "0",
             "date": "",
@@ -1039,7 +1039,7 @@ function App() {
             "id": 93
           },
           {
-            "title": "자기장과의 조우",
+            "title": "자기장과 열권과의 조우",
             "details": "오로라 관측하기",
             "category": "여행",
             "success": "0",
@@ -1114,6 +1114,17 @@ function App() {
             "successdetails": "원래는 반말 안했었는데 자연스럽게 반말하게 됨. 엄청 친하진 않은데 그래도 내 성격에 친해져서 반말하는게 어디인지.",
             "successimage": "",
             "id": 100
+          },
+          {
+            "title": "집가고싶다",
+            "details": "선생님 몰래 학원에서 나와서 집가기",
+            "category": "Teenager",
+            "success": "",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 101
           },
           /* sample
           {
