@@ -974,7 +974,7 @@ function App() {
           },
           {
             "title": "I am very 럭키",
-            "details": "(반어법) 점수 반올림 되어서 등급 올라가기",
+            "details": "점수 반올림 되어서 등급 올라가기",
             "category": "교육",
             "success": "1",
             "date": "2021.06",
@@ -1147,6 +1147,39 @@ function App() {
             "successdetails": "",
             "successimage": "",
             "id": 103
+          },
+          {
+            "title": "유명인 유튜브에 출연해보기",
+            "details": "10대에 구독자 10만명 이상이고 내가 한 번 이상 들어본 유튜버의 유튜브에 출연해보기",
+            "category": "Teenager",
+            "success": "",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 104
+          },
+          {
+            "title": "나는야 사회적이고 도덕적인 사람",
+            "details": "사회적인 행동 해보기",
+            "category": "기타",
+            "success": "1",
+            "date": "2022",
+            "image": "",
+            "successdetails": "지구의날에 불 꺼봄",
+            "successimage": "",
+            "id": 105
+          },
+          {
+            "title": "나 아직 안 늙었어, 아직 중(고등)학생박에 안됐다고",
+            "details": "내가 세상을 바꿀 수 있다는 가능성을 무시할 수도 없고, 세상을 바꾸지 않더라도 나 자체는 바꿀 충분하면서도 부족한 시간이 남은거같아. - 그래서 이 항목을 완료하기 위해선 뭘 해야하는데?",
+            "category": "Teenager",
+            "success": "",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 106
           },
           /* sample
           {
