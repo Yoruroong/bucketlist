@@ -985,7 +985,7 @@ function App() {
           },
           {
             "title": "맞아, 나 돈 많아(1)",
-            "details": "신용카드한도 1000만원 달성하기",
+            "details": "신용카드(총)한도 1억원 달성하기",
             "category": "소유",
             "success": "0",
             "date": "",
