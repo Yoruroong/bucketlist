@@ -41,7 +41,7 @@ export default function Stats ({ notes }) {
                     <Card.Body>
                     <Card.Title>이룬 항목</Card.Title>
                     <Card.Text>
-                        {notes.filter(a => a.success == '1').length}({parseInt((notes.filter(a => a.success == '1').length / notes.length) * 100)}%)
+                        {notes.filter(a => a.success == '1').length}({((notes.filter(a => a.success == '1').length / notes.length) * 100).toFixed(1)}%)
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -49,7 +49,7 @@ export default function Stats ({ notes }) {
                     <Card.Body>
                     <Card.Title>이루지 못한 항목</Card.Title>
                     <Card.Text>
-                        {notes.filter(a => a.success == '0').length}({parseInt((notes.filter(a => a.success == '0').length / notes.length) * 100)}%)
+                        {notes.filter(a => a.success == '0').length}({((notes.filter(a => a.success == '0').length / notes.length) * 100).toFixed(1)}%)
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -57,7 +57,7 @@ export default function Stats ({ notes }) {
                     <Card.Body>
                     <Card.Title>FAILED</Card.Title>
                     <Card.Text>
-                        {notes.filter(a => a.success == '2').length}({parseInt((notes.filter(a => a.success == '2').length / notes.length) * 100)}%)
+                        {notes.filter(a => a.success == '2').length}({((notes.filter(a => a.success == '2').length / notes.length) * 100).toFixed(1)}%)
                     </Card.Text>
                     </Card.Body>
                 </Card>
