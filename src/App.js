@@ -94,7 +94,7 @@ function App() {
           },
           {
             "title": "Singapore Airlines",
-            "details": "그 좋다는 싱항 비즈니스클래스 *혼자* 타고 4시간 30분 이상 걸리는 해외 가보기(어메니티 챙기기!!)",
+            "details": "싱항 비즈니스클래스 *혼자* 타고 4시간 30분 이상 걸리는 해외 가보기(어메니티 챙기기!!)",
             "category": "여행",
             "success": "0",
             "date": "",
@@ -544,8 +544,8 @@ function App() {
             "id": 48
           },
           {
-            "title": "My travel, my way",
-            "details": "항공사 10000마일리지 이상 쌓아보기",
+            "title": "이 십만(마일리지 모은 귀여운)",
+            "details": "항공사 100,000마일리지 이상 쌓아보기",
             "category": "여행",
             "success": "0",
             "date": "",
