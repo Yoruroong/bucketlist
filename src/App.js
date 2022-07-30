@@ -921,10 +921,10 @@ function App() {
             "title": "개인정보 팔아먹냐",
             "details": "5대 시중은행 계좌 모두 만들기",
             "category": "Teenager",
-            "success": "0",
-            "date": "",
+            "success": "-1",
+            "date": "2022.02",
             "image": "",
-            "successdetails": "",
+            "successdetails": "우리금융지주 2022년 02월부로 손절해서 우리은행 계좌 만들 생각 없음.",
             "successimage": "",
             "id": 83
           },
@@ -1191,6 +1191,17 @@ function App() {
             "successdetails": "댄공 A300 전세내봄. -- 내가 찍은 사진에 아무도 없잖아 ㅋ",
             "successimage": "",
             "id": 107
+          },
+          {
+            "title": "4개국어하기",
+            "details": "한국어+영어+일본어+프랑스어+스페인어(계획은)",
+            "category": "교육",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 108
           },
           /* sample
           {
