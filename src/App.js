@@ -921,7 +921,7 @@ function App() {
             "title": "개인정보 팔아먹냐",
             "details": "5대 시중은행 계좌 모두 만들기",
             "category": "Teenager",
-            "success": "-1",
+            "success": "2",
             "date": "2022.02",
             "image": "",
             "successdetails": "우리금융지주 2022년 02월부로 손절해서 우리은행 계좌 만들 생각 없음.",
@@ -1203,7 +1203,7 @@ function App() {
             "successimage": "",
             "id": 108
           },
-          
+
           /* sample
           {
             "title": "",
