@@ -7,57 +7,57 @@ export default function Stats ({ notes }) {
             <CardGroup>
                 <Card>
                     <Card.Body>
-                    <Card.Title>오늘까지</Card.Title>
+                    <Card.Title>{notes.filter(a => a.date.split('.')[0] == new Date().getFullYear()).length}</Card.Title>
                     <Card.Text>
-                        {notes.filter(a => a.date.split('.')[0] == new Date().getFullYear()).length}
+                        올 해
                     </Card.Text>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Body>
-                    <Card.Title>지난 해</Card.Title>
+                    <Card.Title>{notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 1).length}</Card.Title>
                     <Card.Text>
-                        {notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 1).length}
+                        지난 해
                     </Card.Text>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Body>
-                    <Card.Title>최근 3년</Card.Title>
+                    <Card.Title>{notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 2).length + notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 1).length + notes.filter(a => a.date.split('.')[0] == new Date().getFullYear()).length}</Card.Title>
                     <Card.Text>
-                        {notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 2).length + notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 1).length + notes.filter(a => a.date.split('.')[0] == new Date().getFullYear()).length}
+                        최근 3년
                     </Card.Text>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Body>
-                    <Card.Title>총 항목</Card.Title>
+                    <Card.Title>{notes.length}</Card.Title>
                     <Card.Text>
-                        {notes.length}
+                        총 항목
                     </Card.Text>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Body>
-                    <Card.Title>이룬 항목</Card.Title>
+                    <Card.Title>{notes.filter(a => a.success == '1').length}({((notes.filter(a => a.success == '1').length / notes.length) * 100).toFixed(1)}%)</Card.Title>
                     <Card.Text>
-                        {notes.filter(a => a.success == '1').length}({((notes.filter(a => a.success == '1').length / notes.length) * 100).toFixed(1)}%)
+                        이룬 항목
                     </Card.Text>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Body>
-                    <Card.Title>이루지 못한 항목</Card.Title>
+                    <Card.Title>{notes.filter(a => a.success == '0').length}({((notes.filter(a => a.success == '0').length / notes.length) * 100).toFixed(1)}%)</Card.Title>
                     <Card.Text>
-                        {notes.filter(a => a.success == '0').length}({((notes.filter(a => a.success == '0').length / notes.length) * 100).toFixed(1)}%)
+                        이루지 못한 항목
                     </Card.Text>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Body>
-                    <Card.Title>FAILED</Card.Title>
+                    <Card.Title>{notes.filter(a => a.success == '2').length}({((notes.filter(a => a.success == '2').length / notes.length) * 100).toFixed(1)}%)</Card.Title>
                     <Card.Text>
-                        {notes.filter(a => a.success == '2').length}({((notes.filter(a => a.success == '2').length / notes.length) * 100).toFixed(1)}%)
+                        FAILED
                     </Card.Text>
                     </Card.Body>
                 </Card>
