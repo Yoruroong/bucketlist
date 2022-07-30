@@ -7,7 +7,7 @@ export default function Stats ({ notes }) {
             <CardGroup>
                 <Card>
                     <Card.Body>
-                    <Card.Title>올해 현재까지</Card.Title>
+                    <Card.Title>오늘까지</Card.Title>
                     <Card.Text>
                         {notes.filter(a => a.date.split('.')[0] == new Date().getFullYear()).length}
                     </Card.Text>
