@@ -1181,6 +1181,17 @@ function App() {
             "successimage": "",
             "id": 106
           },
+          {
+            "title": "비행기 전세낼정도로 돈이 많지는 않아서",
+            "details": "비행기 전세내기",
+            "category": "여행",
+            "success": "1",
+            "date": "2022.07.29",
+            "image": "",
+            "successdetails": "댄공 A300 전세내봄. -- 내가 찍은 사진에 아무도 없잖아 ㅋ",
+            "successimage": "",
+            "id": 107
+          },
           /* sample
           {
             "title": "",
