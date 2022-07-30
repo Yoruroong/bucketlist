@@ -14,7 +14,7 @@ export default function CardComponent({note}) {
           {note.details.split('\n').map(nt => {return (<span>{nt}<br /></span>)})}
         </Card.Text>
         <Card.Footer>
-          <small className="text-muted">{note.success == 1 ? `완료됨: ${note.date}` : note.succes == -1 ? `실패` : `미완료`}</small>
+          <small className="text-muted">{note.success == 1 ? `완료됨: ${note.date}` : note.succes == -1 ? `FAILED` : `미완료`}</small>
         </Card.Footer>
       </Card.Body>
 
