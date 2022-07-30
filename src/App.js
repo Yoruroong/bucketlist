@@ -842,7 +842,7 @@ function App() {
           },
           {
             "title": "학교, 싫은데, 뭐 어떡해",
-            "details": "공부 열심히 해서 좋은 학교 가기",
+            "details": "공부 열심히 해서 좋은 학교 가기 -- 좋은 학교 기준이 뭔데? 대학교야 아니면 고등학교야?",
             "category": "Teenager",
             "success": "0",
             "date": "",
