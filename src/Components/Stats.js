@@ -23,7 +23,7 @@ export default function Stats ({ notes }) {
                 </Card>
                 <Card>
                     <Card.Body>
-                    <Card.Title>최근 3년간</Card.Title>
+                    <Card.Title>최근 3년</Card.Title>
                     <Card.Text>
                         {notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 2).length + notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 1).length + notes.filter(a => a.date.split('.')[0] == new Date().getFullYear()).length}
                     </Card.Text>
