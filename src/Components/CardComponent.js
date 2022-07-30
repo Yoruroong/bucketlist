@@ -9,7 +9,7 @@ export default function CardComponent({note}) {
     <Card id={note.id} style={note.successdetails ? { cursor: "pointer" } : { cursor: "default" }} className={note.successdetails ? "shadow hoverbackground": "shadow"} onClick={note.successdetails ? handleShow : ""}>
       <Card.Img variant="top" src={note.image ? "images/" + note.image : ""} />
       <Card.Body>
-        <Card.Title><p style={{ fontSize: '9px' }}>{note.id}</p>{note.title}</Card.Title>
+        <Card.Title><p style={{ fontSize: '9px' }}>{note.id}</p>{note.success == 1 ? `✅` : note.succes == 2 ? `❌` : `⬜`}{note.title}</Card.Title>
         <Card.Text>
           {note.details.split('\n').map(nt => {return (<span>{nt}<br /></span>)})}
         </Card.Text>
