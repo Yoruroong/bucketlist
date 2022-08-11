@@ -1203,7 +1203,17 @@ function App() {
             "successimage": "",
             "id": 108
           },
-
+          {
+            "title": "한달이나 살아남을 수 있겠어?",
+            "details": "유럽이나 미국에서 한 달 살아보기",
+            "category": "여행",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 109
+          },
           /* sample
           {
             "title": "",
