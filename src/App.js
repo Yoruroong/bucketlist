@@ -74,10 +74,10 @@ function App() {
             "title": "제주도",
             "details": "제주 당일치기로 *혼자* 갔다오기",
             "category": "여행",
-            "success": "0",
-            "date": "",
+            "success": "1",
+            "date": "2022.08.16",
             "image": "",
-            "successdetails": "",
+            "successdetails": "8월 15일 23시에 비행기표 예약. 다음 날 개학이었는데 갑자기 가고싶어져서.",
             "successimage": "",
             "id": 6
           },
