@@ -118,10 +118,10 @@ function App() {
             "title": "바다, 해상업, 해군, 마린",
             "details": "마린시티 가보기",
             "category": "여행",
-            "success": "0",
-            "date": "",
+            "success": "1",
+            "date": "2022.02.23",
             "image": "",
-            "successdetails": "",
+            "successdetails": "원래는 계획에 없었느데 해운대 해수욕장 가서 마린시티에 가 본게 됨.",
             "successimage": "",
             "id": 10
           },
