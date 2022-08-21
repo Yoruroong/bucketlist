@@ -44,3 +44,8 @@ footer {
 .card-body-stats {
   padding: 1.2rem 2rem;
 }
+
+.percent-stats {
+  font-size: 15px;
+  color: gray;
+}
