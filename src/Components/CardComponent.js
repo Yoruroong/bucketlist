@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function CardComponent({note}) {
   const [modalShow, setModalShow] = React.useState(false);
-  const handleClose = () => window.location='http://redirectmydomain.kro.kr/#' + note.id
+  const handleClose = () => setModalShow(false);
   const handleShow = () => setModalShow(true);
   return (
     <Card id={note.id} style={note.successdetails ? { cursor: "pointer" } : { cursor: "default" }} className={note.successdetails ? "shadow hoverbackground": "shadow"} onClick={note.successdetails ? handleShow : ""}>
