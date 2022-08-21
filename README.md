@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+<h1 align="center">Bucket List by Yeonwoo</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- 실행 페이지: [https://bucket.yeonw.me/](https://bucket.yeonw.me/)
 
 ## Available Scripts
 
