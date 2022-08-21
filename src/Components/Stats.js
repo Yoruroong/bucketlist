@@ -5,7 +5,7 @@ export default function Stats ({ notes }) {
     return (
         <div>
             <CardGroup>
-                <Card>
+                <Card className='card-body-stats'>
                     <Card.Body>
                     <Card.Title>{notes.filter(a => a.date.split('.')[0] == new Date().getFullYear()).length}</Card.Title>
                     <Card.Text>
@@ -13,7 +13,7 @@ export default function Stats ({ notes }) {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-body-stats'>
                     <Card.Body>
                     <Card.Title>{notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 1).length}</Card.Title>
                     <Card.Text>
@@ -21,7 +21,7 @@ export default function Stats ({ notes }) {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-body-stats'>
                     <Card.Body>
                     <Card.Title>{notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 2).length + notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 1).length + notes.filter(a => a.date.split('.')[0] == new Date().getFullYear()).length}</Card.Title>
                     <Card.Text>
@@ -29,7 +29,7 @@ export default function Stats ({ notes }) {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-body-stats'>
                     <Card.Body>
                     <Card.Title>{notes.length}</Card.Title>
                     <Card.Text>
@@ -37,7 +37,7 @@ export default function Stats ({ notes }) {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-body-stats'>
                     <Card.Body>
                     <Card.Title>{notes.filter(a => a.success == '1').length}({((notes.filter(a => a.success == '1').length / notes.length) * 100).toFixed(1)}%)</Card.Title>
                     <Card.Text>
@@ -45,7 +45,7 @@ export default function Stats ({ notes }) {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-body-stats'>
                     <Card.Body>
                     <Card.Title>{notes.filter(a => a.success == '0').length}({((notes.filter(a => a.success == '0').length / notes.length) * 100).toFixed(1)}%)</Card.Title>
                     <Card.Text>
@@ -53,7 +53,7 @@ export default function Stats ({ notes }) {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-body-stats'>
                     <Card.Body>
                     <Card.Title>{notes.filter(a => a.success == '2').length}({((notes.filter(a => a.success == '2').length / notes.length) * 100).toFixed(1)}%)</Card.Title>
                     <Card.Text>

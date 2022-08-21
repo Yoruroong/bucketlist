@@ -40,3 +40,7 @@ footer {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 30px -6px;
   border: 0;
 }
+
+.card-body-stats {
+  padding: 1.2rem 2rem;
+}
