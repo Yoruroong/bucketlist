@@ -764,7 +764,7 @@ function App() {
             "id": 68
           },
           {
-            "title": "헌혈하기",
+            "title": "내 소중한 피 가져가요",
             "details": "헌혈 은장(30회) 받아보기",
             "category": "기타",
             "success": "0",
