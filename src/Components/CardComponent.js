@@ -1,10 +1,18 @@
-import {Card, Button, Modal} from 'react-bootstrap'
+import {Card} from 'react-bootstrap'
+import Modal from "./Modal"
 import React from 'react'
 
 export default function CardComponent({note}) {
-  const [modalShow, setModalShow] = React.useState(false);
-  const handleClose = () => setModalShow(false);
-  const handleShow = () => setModalShow(true);
+  const [open, setOpen] = React.useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
+  async function handleShow () {
+    if(open) return;
+    setOpen(true);
+    console.log('1')
+  };
+  
   return (
     <Card id={note.id} style={note.successdetails ? { cursor: "pointer" } : { cursor: "default" }} className={note.successdetails ? "shadow hoverbackground": "shadow"} onClick={note.successdetails ? handleShow : ""}>
       <Card.Img variant="top" src={note.image ? "images/" + note.image : ""} />
@@ -19,26 +27,10 @@ export default function CardComponent({note}) {
       </Card.Body>
 
       <Modal
-        show={modalShow}
-        size="lg"
+        show={open}
         onHide={handleClose}
-        aria-labelledby="contained-modal-title-vcenter"
-        centered
+        note={note}
       >
-        <Modal.Header>
-          <Modal.Title id="contained-modal-title-vcenter">
-            {note.title}
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-            {note.successimage ? <img src={"images/" + note.successimage} className="img-fluid"></img> : ""}
-          <p style={{ marginTop: '17px' }}>
-            {note.successdetails.split('\n').map(nt => {return (<span>{nt}<br /></span>)})}
-          </p>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button onClick={handleClose}>Close</Button>
-        </Modal.Footer>
       </Modal>
     </Card>
   )
