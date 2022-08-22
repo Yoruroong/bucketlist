@@ -19,7 +19,7 @@ const Modal = props => {
                     </p>
                 </div>
                 <div className='modal-footer'>
-                    <Button onClick={hidethis}>Close</Button>
+                    <p className='percent-stats'>{props.note.success == 0 ? "🇸 🇴 🇴 🇳 ™" : props.note.date + "에 완료됨"}</p><Button onClick={hidethis}>Close</Button>
                 </div>
             </div>
         </div>

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Card from "./Pages/Main";
 import Stats from "./Components/Stats";
 import Success from "./Pages/Success";
+import Navbar from "./Components/Navbar"
 import './App.css';
 
 function App() {
@@ -1232,7 +1233,8 @@ function App() {
   }, [])
   return (
     <div className="App-header">
-      <h1 style={{ marginTop: "50px" }}># BUCKETLIST</h1>
+      <Navbar />
+      <h1 style={{ marginTop: "100px" }}># BUCKETLIST</h1>
       <Stats notes={notes} />
       <Routes>
         <Route path="/" element={<Card notes={notes}/>} />
