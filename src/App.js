@@ -526,10 +526,10 @@ function App() {
             "title": "소정의 원고료를 제공받아 작성되었습니다",
             "details": "제품을 지원받고 블로그에 포스팅하기",
             "category": "소유",
-            "success": "0",
-            "date": "",
+            "success": "1",
+            "date": "2022.08.13",
             "image": "",
-            "successdetails": "",
+            "successdetails": "타이틀과는 맞지 않지만, '제품을 지원받아' 포스팅함. 비싼건 아니고 아이패드 케이스. 원래 필요했었는데 잘 쓰고 있음.",
             "successimage": "",
             "id": 47
           },
