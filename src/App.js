@@ -460,10 +460,10 @@ function App() {
             "title": "잘못나왔니",
             "details": "중학교 지필 올백",
             "category": "교육",
-            "success": "0",
-            "date": "",
+            "success": "1",
+            "date": "2022.10.07",
             "image": "",
-            "successdetails": "솔직히 말하면 이건 좀 아까운데, 2학년 2학기 중간고사에서 수학 빼고 모두 100점 나왔고 기말고사에서는 문제 다 풀어놓고 덧셈 잘못해서 수학을 난생 처음 받아보는 점수를 받음.",
+            "successdetails": "3학년 2학기 중간고사에서 올백 찍고 졸업 ⭐",
             "successimage": "",
             "id": 41
           },
