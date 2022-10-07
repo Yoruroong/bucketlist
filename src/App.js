@@ -1215,6 +1215,72 @@ function App() {
             "successimage": "",
             "id": 109
           },
+          {
+            "title": "그, 나, 너, 좋아했는데",
+            "details": "짝사랑해보기",
+            "category": "Teenager",
+            "success": "1",
+            "date": "2022",
+            "image": "",
+            "successdetails": "짝녀랑 통화하다가 말실수해서 짝녀한테 손절당함",
+            "successimage": "",
+            "id": 110
+          },
+          {
+            "title": "보건실쌤: 왜 왔어 나가! 이용증 써줘?",
+            "details": "보건실 단골돼서 선생님이 내 이름 알게 만들기",
+            "category": "Teenager",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 111
+          },
+          {
+            "title": "맨날 예산 없대 <-> 뭐 사실인데..",
+            "details": "학생회 해보기",
+            "category": "Teenager",
+            "success": "1",
+            "date": "2019.09",
+            "image": "",
+            "successdetails": "초딩때 학생회를 하긴 해봄",
+            "successimage": "",
+            "id": 112
+          },
+          {
+            "title": "차단박고 뒷담까기 <-> 쟤 묻어버리자",
+            "details": "전교부회장 해보기",
+            "category": "Teenager",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 113
+          },
+          {
+            "title": "쟤 묻어버리자 <-> 쟤 묻어",
+            "details": "전교회장 해보기",
+            "category": "Teenager",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 114
+          },
+          {
+            "title": "선생님 저 머리가 너무 아픈데 ..",
+            "details": "꾀병으로 조퇴해보기",
+            "category": "Teenager",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 115
+          },
           /* sample
           {
             "title": "",
