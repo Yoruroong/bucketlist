@@ -31,7 +31,7 @@ export default function Navbarin() {
             <Nav.Link href="/" onClick={makeitloading}>{loading?"":"메인"}<Spinner style={{ width: loading? "": "0px", visibility: loading ? "visible":"hidden" }} animation="grow" size="sm"/></Nav.Link>
             <Nav.Link href="/success">달성</Nav.Link>
             
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
+            <NavDropdown title="Learn More" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="https://iam.yeonw.me/">연우에 대해 더 알아보기</NavDropdown.Item>
                 <NavDropdown.Item href="https://iam.yeonw.me/">
                     여누에 대해 더 알아보기
@@ -42,7 +42,7 @@ export default function Navbarin() {
                 </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#" disabled>
-                    Link
+                    연우가 ❤️와 함께 만듦.
                 </Nav.Link>
             </Nav>
             <Form className="d-flex">
