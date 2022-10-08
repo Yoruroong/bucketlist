@@ -1318,7 +1318,7 @@ function App() {
         <Route path="/success" element={<Success notes={notes}/>} />
       </Routes>
       <footer>
-        <p align="center" className="copy" style={{ marginTop: "139px" }}>© 2020 - {new Date().getFullYear()}, Yeonwoo Seo </p>
+        <p align="center" className="copy" style={{ marginTop: "179px" }}>© 2020 - {new Date().getFullYear()}, Yeonwoo Seo </p>
       </footer>
     </div>
   );
