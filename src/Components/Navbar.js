@@ -32,13 +32,13 @@ export default function Navbarin() {
             <Nav.Link href="/success">달성</Nav.Link>
             
             <NavDropdown title="Link" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action4">
-                    Another action
+                <NavDropdown.Item href="https://iam.yeonw.me/">연우에 대해 더 알아보기</NavDropdown.Item>
+                <NavDropdown.Item href="https://iam.yeonw.me/">
+                    여누에 대해 더 알아보기
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action5">
-                    Something else here
+                <NavDropdown.Item href="https://iam.yeonw.me/">
+                    Yeonwoo에 대해 더 알아보기
                 </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#" disabled>
