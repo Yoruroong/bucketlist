@@ -57,7 +57,7 @@ export default function Stats ({ notes }) {
                     <Card.Body>
                     <Card.Title>{notes.filter(a => a.success == '2').length}<p className='percent-stats'>({((notes.filter(a => a.success == '2').length / notes.length) * 100).toFixed(1)}%)</p></Card.Title>
                     <Card.Text>
-                        FAILED
+                        {new Date().getMonth() == 9 && new Date().getDate() == 9 ? "실패" : "FAILED"}
                     </Card.Text>
                     </Card.Body>
                 </Card>

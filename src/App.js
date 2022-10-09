@@ -14,6 +14,7 @@ function App() {
     /*fetch('http://localhost:8000/notes')
       .then(res => res.json())
       .then(data => setNotes(data))*/
+      document.title=new Date().getMonth() == 9 && new Date().getDate() == 9 ? "연우가 만든 버킷리스트" : "Bucket List by Yeonwoo"
       setNotes({
         "notes": [
           { 
@@ -1311,7 +1312,7 @@ function App() {
   return (
     <div className="App-header">
       <Navbar />
-      <h1 style={{ marginTop: "100px" }}># BUCKETLIST</h1>
+      <h1 style={{ marginTop: "100px" }}># {new Date().getMonth() == 9 && new Date().getDate() == 9 ? "버킷리스트" : "BUCKETLIST"}</h1>
       <Stats notes={notes} />
       <Routes>
         <Route path="/" element={<Card notes={notes}/>} />
