@@ -44,7 +44,7 @@ export default function Navbarin() {
                 </NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#" disabled>
-                    {new Date().getMonth() == 9 && new Date().getDate() == 9 ? `한글, 아름답게.` : new Date()}
+                    {new Date().getMonth() == 9 && new Date().getDate() == 9 ? `한글, 아름답게.` : `${new Date()}`}
                 </Nav.Link>
             </Nav>
             <Form className="d-flex">
