@@ -1304,6 +1304,28 @@ function App() {
             "successimage": "",
             "id": 117
           },
+          {
+            "title": "상공 70미터에서 수직낙하.. 내리실분 마지막 기회입니다!",
+            "details": "롯데월드 알바해보기",
+            "category": "기타",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "2022년 10월 14일에 롯데월드 갔다가 한 번 해보고 싶어졌어",
+            "successimage": "",
+            "id": 118
+          },
+          {
+            "title": "Hey, what are you doing here?",
+            "details": "미국 여러 대기업 본사 앞이나 안에서 사진 찍기",
+            "category": "여행",
+            "success": "0",
+            "date": "",
+            "image": "",
+            "successdetails": "",
+            "successimage": "",
+            "id": 119
+          },
           /* sample
           {
             "title": "",
