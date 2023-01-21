@@ -14,15 +14,15 @@ export default function CardComponent({note}) {
   };
   
   return (
-    <Card id={note.id} style={note.successdetails ? { cursor: "pointer" } : { cursor: "default" }} className={note.successdetails ? "shadow hoverbackground": "shadow"} onClick={note.successdetails ? handleShow : ""}>
-      <Card.Img variant="top" src={note.image ? "images/" + note.image : ""} />
+    <Card id={note.id} style={note.Successdetails ? { cursor: "pointer" } : { cursor: "default" }} className={note.Successdetails ? "shadow hoverbackground": "shadow"} onClick={note.Successdetails ? handleShow : ""}>
+      <Card.Img variant="top" src={note.image ? "images/" + note.Image : ""} />
       <Card.Body>
-        <Card.Title><p style={{ fontSize: '9px' }}>{note.id}</p>{note.success == 2 ? `❌` : note.success == 1 ? "✅" : "⬜"}{note.title}</Card.Title>
+        <Card.Title><p style={{ fontSize: '9px' }}>{note.id}</p>{note.Success == 2 ? `❌` : note.Success == 1 ? "✅" : "⬜"}{note.Title}</Card.Title>
         <Card.Text>
-          {note.details.split('\n').map(nt => {return (<span>{nt}<br /></span>)})}
+          {note.Details.split('\n').map(nt => {return (<span>{nt}<br /></span>)})}
         </Card.Text>
         <Card.Footer>
-          <small className="text-muted">{note.success == 0 ? "🇸 🇴 🇴 🇳 ™" : note.date}</small>
+          <small className="text-muted">{note.Success == 0 ? "🇸 🇴 🇴 🇳 ™" : note.Date}</small>
         </Card.Footer>
       </Card.Body>
 

@@ -7,7 +7,7 @@ export default function Stats ({ notes }) {
             <CardGroup>
                 <Card className='card-body-stats'>
                     <Card.Body>
-                    <Card.Title>{notes.filter(a => a.date.split('.')[0] == new Date().getFullYear()).length}<p></p></Card.Title>
+                    <Card.Title>{notes.filter(a => a.Date.split('.')[0] == new Date().getFullYear()).length}<p></p></Card.Title>
                     <Card.Text>
                         올 해
                     </Card.Text>
@@ -15,7 +15,7 @@ export default function Stats ({ notes }) {
                 </Card>
                 <Card className='card-body-stats'>
                     <Card.Body>
-                    <Card.Title>{notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 1).length}<p></p></Card.Title>
+                    <Card.Title>{notes.filter(a => a.Date.split('.')[0] == new Date().getFullYear() - 1).length}<p></p></Card.Title>
                     <Card.Text>
                         지난 해
                     </Card.Text>
@@ -23,7 +23,7 @@ export default function Stats ({ notes }) {
                 </Card>
                 <Card className='card-body-stats'>
                     <Card.Body>
-                    <Card.Title>{notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 2).length + notes.filter(a => a.date.split('.')[0] == new Date().getFullYear() - 1).length + notes.filter(a => a.date.split('.')[0] == new Date().getFullYear()).length}<p></p></Card.Title>
+                    <Card.Title>{notes.filter(a => a.Date.split('.')[0] == new Date().getFullYear() - 2).length + notes.filter(a => a.Date.split('.')[0] == new Date().getFullYear() - 1).length + notes.filter(a => a.Date.split('.')[0] == new Date().getFullYear()).length}<p></p></Card.Title>
                     <Card.Text>
                         최근 3년
                     </Card.Text>
@@ -39,7 +39,7 @@ export default function Stats ({ notes }) {
                 </Card>
                 <Card className='card-body-stats'>
                     <Card.Body>
-                    <Card.Title>{notes.filter(a => a.success == '1').length}<p className='percent-stats'>({((notes.filter(a => a.success == '1').length / notes.length) * 100).toFixed(1)}%)</p></Card.Title>
+                    <Card.Title>{notes.filter(a => a.Success == '1').length}<p className='percent-stats'>({((notes.filter(a => a.Success == '1').length / notes.length) * 100).toFixed(1)}%)</p></Card.Title>
                     <Card.Text>
                         이룬
                     </Card.Text>
@@ -47,7 +47,7 @@ export default function Stats ({ notes }) {
                 </Card>
                 <Card className='card-body-stats'>
                     <Card.Body>
-                    <Card.Title>{notes.filter(a => a.success == '0').length}<p className='percent-stats'>({((notes.filter(a => a.success == '0').length / notes.length) * 100).toFixed(1)}%)</p></Card.Title>
+                    <Card.Title>{notes.filter(a => a.Success == '0').length}<p className='percent-stats'>({((notes.filter(a => a.Success == '0').length / notes.length) * 100).toFixed(1)}%)</p></Card.Title>
                     <Card.Text>
                         이룰 예정
                     </Card.Text>
@@ -55,7 +55,7 @@ export default function Stats ({ notes }) {
                 </Card>
                 <Card className='card-body-stats'>
                     <Card.Body>
-                    <Card.Title>{notes.filter(a => a.success == '2').length}<p className='percent-stats'>({((notes.filter(a => a.success == '2').length / notes.length) * 100).toFixed(1)}%)</p></Card.Title>
+                    <Card.Title>{notes.filter(a => a.Success == '2').length}<p className='percent-stats'>({((notes.filter(a => a.Success == '2').length / notes.length) * 100).toFixed(1)}%)</p></Card.Title>
                     <Card.Text>
                         {new Date().getMonth() == 9 && new Date().getDate() == 9 ? "실패" : "FAILED"}
                     </Card.Text>

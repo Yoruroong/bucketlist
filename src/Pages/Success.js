@@ -10,7 +10,7 @@ export default function RCard({ notes }) {
             <div>
               <h2 style={{ marginTop: '10px' }}>#{ct}</h2>
               <Row xs={1} md={4} className="g-4" style={{ alignContent: "left", marginRight: '0' }}>
-                {notes.filter(a => a.category == ct && a.success == '1').map(note => (
+                {notes.filter(a => a.Category == ct && a.Success == '1').map(note => (
                   <Col>
                     <div>
                       <Card note={note} />

@@ -4,18 +4,23 @@ import Card from "./Pages/Main";
 import Stats from "./Components/Stats";
 import Success from "./Pages/Success";
 import Navbar from "./Components/Navbar"
+import useFetch from "react-fetch-hook";
 import './App.css';
 
-function App() {
+export default function App() {
   const [notes, setNotes] = useState([]);
   // https://jinh.kr/bucket/
 
   useEffect(() => {
     fetch('http://localhost:1323/getall')
       .then(res => res.json())
-      .then(data => setNotes(data))
-      document.title=new Date().getMonth() == 9 && new Date().getDate() == 9 ? "연우가 만든 버킷리스트" : "Bucket List by Yeonwoo"
+      .then(data => {
+        console.log(data)
+        setNotes(data)
+      })
+    document.title=new Date().getMonth() == 9 && new Date().getDate() == 9 ? "연우가 만든 버킷리스트" : "Bucket List by Yeonwoo"
   }, [])
+
   return (
     <div className="App-header">
       <Navbar />
@@ -31,5 +36,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
