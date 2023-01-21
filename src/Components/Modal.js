@@ -13,7 +13,7 @@ const Modal = props => {
                     <h4 className='modal-title'>{props.note.Title}</h4>
                 </div>
                 <div className='modal-body'>
-                    {props.note.successimage ? <img src={"images/" + props.note.Successimage} className="img-fluid"></img> : ""}
+                    {props.note.Successimage ? <img src={"images/" + props.note.Successimage} className="img-fluid"></img> : ""}
                     <p style={{ marginTop: '17px' }}>
                         {props.note.Successdetails.split('\n').map(nt => {return (<span>{nt}<br /></span>)})}
                     </p>

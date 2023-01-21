@@ -15,7 +15,7 @@ export default function CardComponent({note}) {
   
   return (
     <Card id={note.id} style={note.Successdetails ? { cursor: "pointer" } : { cursor: "default" }} className={note.Successdetails ? "shadow hoverbackground": "shadow"} onClick={note.Successdetails ? handleShow : ""}>
-      <Card.Img variant="top" src={note.image ? "images/" + note.Image : ""} />
+      <Card.Img variant="top" src={note.Image ? "images/" + note.Image : ""} />
       <Card.Body>
         <Card.Title><p style={{ fontSize: '9px' }}>{note.id}</p>{note.Success == 2 ? `❌` : note.Success == 1 ? "✅" : "⬜"}{note.Title}</Card.Title>
         <Card.Text>
