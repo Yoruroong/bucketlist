@@ -4,7 +4,6 @@ import Card from "./Pages/Main";
 import Stats from "./Components/Stats";
 import Success from "./Pages/Success";
 import Navbar from "./Components/Navbar"
-import useFetch from "react-fetch-hook";
 import './App.css';
 
 export default function App() {
