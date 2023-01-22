@@ -14,9 +14,10 @@ export default function CardComponent({note}) {
   };
   
   return (
-    <Card id={note.id} style={note.Successdetails ? { cursor: "pointer" } : { cursor: "default" }} className={note.Successdetails ? "shadow hoverbackground": "shadow"} onClick={note.Successdetails ? handleShow : ""}>
+    <Card id={note.Id} style={note.Successdetails ? { cursor: "pointer" } : { cursor: "default" }} className={note.Successdetails ? "shadow hoverbackground": "shadow"} onClick={note.Successdetails ? handleShow : ""}>
       <Card.Img variant="top" src={note.Image ? "images/" + note.Image : ""} />
       <Card.Body>
+        <p style={{ fontSize:"11px" }}>{note.Id}</p>
         <Card.Title><p style={{ fontSize: '9px' }}>{note.id}</p>{note.Success == 2 ? `❌` : note.Success == 1 ? "✅" : "⬜"}{note.Title}</Card.Title>
         <Card.Text>
           {note.Details.split('\n').map(nt => {return (<span>{nt}<br /></span>)})}
