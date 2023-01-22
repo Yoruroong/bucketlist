@@ -12,7 +12,7 @@ export default function App() {
   // https://jinh.kr/bucket/
 
   useEffect(() => {
-    fetch('http://localhost:1323/getall')
+    fetch('https://bucketapi.yeonw.me/getall')
       .then(res => res.json())
       .then(data => {
         console.log(data)
