@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
 import './css/modal.css'
 
 const Modal = props => {
@@ -19,7 +18,7 @@ const Modal = props => {
                     </p>
                 </div>
                 <div className='modal-footer'>
-                    <p className='percent-stats'>{props.note.Success == 0 ? "🇸 🇴 🇴 🇳 ™" : props.note.Date + "에 완료됨"}</p><Button onClick={hidethis}>Close</Button>
+                    <p className='percent-stats'>{props.note.Success == 0 ? "🇸 🇴 🇴 🇳 ™" : props.note.Date + "에 완료됨"}</p><button className='App-link' onClick={hidethis}>Close</button>
                 </div>
             </div>
         </div>

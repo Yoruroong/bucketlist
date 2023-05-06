@@ -53,3 +53,27 @@ footer {
 .copy {
   margin-top: 50vh;
 }
+
+.App-link {
+  font-family: 'Noto Sans KR', sans-serif;
+  background: linear-gradient(135deg, #FFCCFF 0%, #FFFFCC 50%, #CCFFFF 100%) fixed;
+  background-color: #FFFFFF;
+  border-radius: 99999px;
+  border-color: #000000;
+  border-width: 2px;
+  border-style: solid;
+  color: #000000;
+  font-size: calc(10px + 1vmin);
+  font-weight: 400;
+  line-height: inherit;
+  padding: calc(0.667em + 2px) calc(1.333em + 2px);
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.App-link:hover {
+  background: linear-gradient(135deg, #CCFFFF 0%, #FFFFCC 50%, #FFCCFF 100%) fixed;
+  color: #000;
+  text-decoration: none;
+}
