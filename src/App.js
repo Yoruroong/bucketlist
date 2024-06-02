@@ -14,7 +14,7 @@ export default function App() {
 
   useEffect(() => {
     setisLoading(true)
-    fetch('https://bucketapi.yeonw.me/getall')
+    fetch('https://bucket-api.drz.kr/getall')
       .then(res => res.json())
       .then(data => {
         console.log(data)
